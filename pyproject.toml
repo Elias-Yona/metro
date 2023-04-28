@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "metro"
+version = "0.1.0"
+description = "Precise estimation of connections of metro passengers"
+authors = ["Elias Yona <iconelias001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+sklearn = "^0.0.post4"
+scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
